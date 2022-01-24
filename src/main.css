@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue-800 { padding:.50rem 1.50rem; @apply rounded text-white font-semibold text-lg border border-transparent bg-blue-700 shadow-sm hover:bg-blue-700 focus:outline-none focus:border-blue-800 focus:ring transition ease-in-out duration-150; }
+
+.tab { @apply inline-flex items-center h-8 px-2 py-3 border-transparent focus:outline-none focus:border-transparent shadow-sm text-base font-normal rounded-lg; }
+.tab:not(.active) { @apply text-gray-400 bg-gray-100 focus:outline-none focus:border-transparent hover:bg-gray-200; }
+.tab.active { @apply text-blue-800 bg-gray-300; }
